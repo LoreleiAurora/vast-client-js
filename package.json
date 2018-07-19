@@ -1,5 +1,5 @@
 {
-  "name": "vast-client",
+  "name": "@l5i/vast-client",
   "author": "Olivier Poitrey <rs@dailymotion.com>",
   "contributors": [
     "Elia Maino <eliamaino@gmail.com>"
@@ -19,9 +19,6 @@
     "url": "https://github.com/dailymotion/vast-client-js"
   },
   "license": "MIT",
-  "engines": {
-    "node": "8.9.4"
-  },
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --reporter spec test/*.js",
